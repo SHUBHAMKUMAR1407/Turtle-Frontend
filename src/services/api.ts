@@ -8,7 +8,7 @@ const api: AxiosInstance = axios.create({
     headers: {
         'Content-Type': 'application/json',
     },
-    timeout: 30000, // 30s timeout
+    timeout: 120000, 
 });
 
 // Response interceptor for error handling
